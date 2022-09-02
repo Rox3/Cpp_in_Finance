@@ -77,7 +77,7 @@ int main()
     double r = 0.05;  // Risk free interest rate
     double d = 0.0;  //Devidend consideration for index it's zero
     double v = 0.20;  // Yearly volatility or sigma
-    char OpType = 'C';  // 'C'all or 'P'ut
+    char OpType = 'C';  // 'C' for Call or 'P' for Put
     cout<<"Enter Underlying Price :\n";
     cin>>S;
     cout<<"Enter Strike Price :\n";
